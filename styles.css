@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb( 29, 18, 40);
+  }
+  
+  .intro {
+    font-size: 75px;
+    display: flex-wrap;
+    color: white;
+    
+  }
+  
+  button {
+    background-color: rgb(0, 253, 135);
+    display: flex;
+    margin: auto;
+    
+    
+  }
+  
+  .welcome-prompt {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb( 29, 18, 40);
+    padding: 25px;
+    text-align: justify;
+    width: 350px;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+    box-shadow: 0 0 10px rgb(0, 253, 135);
+    
+    } 
+  
+  .welcome-prompt h1 {
+    font-size: 20px 
+  }
+  
+  .welcome-prompt #startGame {
+    color: rgb( 29, 18, 40);
+    padding: 5px;
+    
+  }
+  
+  #quitLink {
+   color: white;
+   font-size: 15px;
+    
+  }
+  
+  #startGame {
+    background-color: rgb(0, 253, 135);
+    width: 100px;
+    height: 35px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 75px;
+  }
+  
+  .blueGhost {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(94, 250, 255);
+    display: none;
+    animation-fill-mode: backwards;
+  }
+    
+    
+     
+  
